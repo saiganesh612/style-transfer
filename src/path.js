@@ -1,3 +1,48 @@
+const sTok = {
+    Source: [
+        "/assets/g4 s2/ref/G4_18_ref.wav",
+        "/assets/g4 s2/ref/G4_19_ref.wav",
+        "/assets/g4 s2/ref/G4_26_ref.wav",
+        "/assets/g4 s2/ref/G4_27_ref.wav",
+    ],
+    Target: [
+        "/assets/g4 s2/gen/G4_18_gen.wav",
+        "/assets/g4 s2/gen/G4_19_gen.wav",
+        "/assets/g4 s2/gen/G4_26_gen.wav",
+        "/assets/g4 s2/gen/G4_27_gen.wav",
+    ]
+}
+
+const kTok = {
+    Source: [
+        "/assets/kanada_multiple_2_99_G4_S1/ref/G4_1_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/ref/G4_2_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/ref/G4_3_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/ref/G4_4_ref.wav",
+    ],
+    Target: [
+        "/assets/kanada_multiple_2_99_G4_S1/gen/G4_1_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/gen/G4_2_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/gen/G4_3_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S1/gen/G4_4_gen.wav",
+    ]
+}
+
+const kToks3 = {
+    Source: [
+        "/assets/kanada_multiple_2_99_G4_S3/ref/G4_knf_00001_00004143102_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/ref/G4_knf_00001_00090736678_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/ref/G4_knf_00001_00090736678_ref.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/ref/G4_knf_00001_00193278498_ref.wav",
+    ],
+    Target: [
+        "/assets/kanada_multiple_2_99_G4_S3/gen/G4_knf_00001_00004143102_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/gen/G4_knf_00001_00090736678_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/gen/G4_knf_00001_00090736678_gen.wav",
+        "/assets/kanada_multiple_2_99_G4_S3/gen/G4_knf_00001_00193278498_gen.wav",
+    ]
+}
+
 const kanadaToSolinga = {
     seen: {
         Source: [
@@ -52,4 +97,4 @@ const soligaToKanada = {
     }
 }
 
-export { kanadaToSolinga, soligaToKanada }
+export { kanadaToSolinga, soligaToKanada, sTok, kTok, kToks3 }
