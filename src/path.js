@@ -108,9 +108,9 @@ const soligaToKanada = {
         "/assets/soliga to kanada/seen/1.wav",
         "/assets/soliga to kanada/seen/4.wav",
         "/assets/soliga to kanada/seen/11.wav",
-        "/assets/soliga to kanada/seen/1.wav",
-        "/assets/soliga to kanada/seen/4.wav",
-        "/assets/soliga to kanada/seen/11.wav"
+        "/assets/soliga to kanada/unseen/3.wav",
+        "/assets/soliga to kanada/unseen/41.wav",
+        "/assets/soliga to kanada/unseen/54.wav"
     ],
     Target: [
         "/assets/soliga to kanada/seen/G1_1_gen_gen.wav",
