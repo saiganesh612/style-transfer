@@ -32,13 +32,11 @@ const kTok = {
         "/assets/kanada_multiple_2_99_G4_S1/ref/G4_1_ref.wav",
         "/assets/kanada_multiple_2_99_G4_S1/ref/G4_2_ref.wav",
         "/assets/kanada_multiple_2_99_G4_S1/ref/G4_3_ref.wav",
-        // "/assets/kanada_multiple_2_99_G4_S1/ref/G4_4_ref.wav",
     ],
     Target: [
         "/assets/kanada_multiple_2_99_G4_S1/gen/G4_1_gen.wav",
         "/assets/kanada_multiple_2_99_G4_S1/gen/G4_2_gen.wav",
         "/assets/kanada_multiple_2_99_G4_S1/gen/G4_3_gen.wav",
-        // "/assets/kanada_multiple_2_99_G4_S1/gen/G4_4_gen.wav",
     ]
 }
 
@@ -76,33 +74,6 @@ const kanadaToSolinga = {
     ]
 }
 
-// const kanadaToSolinga = {
-//     seen: {
-//         Source: [
-//             "/assets/kanada to soliga/seen/1.wav",
-//             "/assets/kanada to soliga/seen/3.wav",
-//             "/assets/kanada to soliga/seen/101.wav"
-//         ],
-//         Target: [
-//             "/assets/kanada to soliga/seen/G2_1_gen_gen.wav",
-//             "/assets/kanada to soliga/seen/G2_3_gen_gen.wav",
-//             "/assets/kanada to soliga/seen/G2_101_gen_gen.wav"
-//         ]
-//     },
-//     unseen: {
-//         Source: [
-//             "/assets/kanada to soliga/unseen/2.wav",
-//             "/assets/kanada to soliga/unseen/28.wav",
-//             "/assets/kanada to soliga/unseen/33.wav"
-//         ],
-//         Target: [
-//             "/assets/kanada to soliga/unseen/G2_2_gen_gen.wav",
-//             "/assets/kanada to soliga/unseen/G2_28_gen_gen.wav",
-//             "/assets/kanada to soliga/unseen/G2_33_gen_gen.wav"
-//         ]
-//     }
-// }
-
 const soligaToKanada = {
     Source: [
         "/assets/soliga to kanada/seen/1.wav",
@@ -122,31 +93,11 @@ const soligaToKanada = {
     ]
 }
 
-// const soligaToKanada = {
-//     seen: {
-//         Source: [
-//             "/assets/soliga to kanada/seen/1.wav",
-//             "/assets/soliga to kanada/seen/4.wav",
-//             "/assets/soliga to kanada/seen/11.wav"
-//         ],
-//         Target: [
-//             "/assets/soliga to kanada/seen/G1_1_gen_gen.wav",
-//             "/assets/soliga to kanada/seen/G1_4_gen_gen.wav",
-//             "/assets/soliga to kanada/seen/G1_11_gen_gen.wav"
-//         ]
-//     },
-//     unseen: {
-//         Source: [
-//             "/assets/soliga to kanada/seen/1.wav",
-//             "/assets/soliga to kanada/seen/4.wav",
-//             "/assets/soliga to kanada/seen/11.wav"
-//         ],
-//         Target: [
-//             "/assets/soliga to kanada/unseen/G1_3_gen_gen.wav",
-//             "/assets/soliga to kanada/unseen/G1_41_gen_gen.wav",
-//             "/assets/soliga to kanada/unseen/G1_54_gen_gen.wav"
-//         ]
-//     }
-// }
+const targetFiles = [
+    "/assets/targets/set_1.wav",
+    "/assets/targets/set_2.wav",
+    "/assets/g4 s2/ref/__G4_1_ref.wav",
+    "/assets/kanada to soliga/seen/1.wav"
+]
 
-export { kanadaToSolinga, soligaToKanada, sTok, kTok, kToks3 }
+export { kanadaToSolinga, soligaToKanada, sTok, kTok, kToks3, targetFiles }
