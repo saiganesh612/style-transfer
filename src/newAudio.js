@@ -9,11 +9,13 @@ const NewAudio = (props) => {
             <div className="row">
                 <div className="col"><h5>Source</h5></div>
                 <div className="col"><h5>Target</h5></div>
+                <div className="col"><h5>Converted Files</h5></div>
             </div>
             {
                 data.Source.map((audio, index) => (
                     <div className="row" key={index}>
                         <div className="col"><audio src={audio} controls /></div>
+                        {/* <div className="col"><audio src={audio} controls /></div> */}
                         <div className="col"><audio src={data.Target[index]} controls /></div>
                     </div>
                 ))
