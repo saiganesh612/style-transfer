@@ -28,6 +28,42 @@
   color: #61dafb;
 }
 
+@media screen and (max-width: 360px) {
+  h4 {
+    font-size: 1em !important;
+  }
+
+  h5 {
+    font-size: 0.7em !important;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 400px) {
+  h4 {
+    font-size: 1em !important;
+  }
+  
+  h5 {
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 560px) {
+  h4 {
+    font-size: 1.3em !important;
+  }
+
+  h5 {
+    font-size: 1em !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .audio-player {
+      width: -webkit-fill-available;
+    }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

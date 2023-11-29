@@ -5,7 +5,7 @@ import NewAudio from './newAudio';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container App">
       <h1 className='mb-4'>Style Transfer</h1>
       <NewAudio heading="Soliga to Kannada(Female to Male)" id="sTok" />
       <NewAudio heading="Kannada to Kannada(Female to Male)" id="kTok" />

@@ -15,11 +15,11 @@ const Audio = ({ target }) => {
             {
                 data.Source.map((audio, index) => (
                     <div className="row" key={index}>
-                        <div className="col"><audio src={audio} controls /></div>
+                        <div className="col"><audio className="audio-player" src={audio} controls /></div>
                         <div className="col">
-                            {index === 0 && <audio src={targetFileSrc} controls />}
+                            {index === 0 && <audio className="audio-player" src={targetFileSrc} controls />}
                         </div>
-                        <div className="col"><audio src={data.Target[index]} controls /></div>
+                        <div className="col"><audio className="audio-player" src={data.Target[index]} controls /></div>
                     </div>
                 ))
             }
